@@ -1,4 +1,4 @@
-# [Clustering by Deep Latent Position Model with Graph Convolutional Network](https://hal.inria.fr/hal-03629104v1)
+# [DeepLTRS: A deep latent recommender system based on user ratings and reviews](https://www.sciencedirect.com/science/article/pii/S0167865521003822)
 
 [Dingge Liang](https://team.inria.fr/maasai/dingge-liang/), [Marco Corneli](https://math.unice.fr/~mcorneli/), [Charles Bouveyron](https://math.unice.fr/~cbouveyr/), [Pierre Latouche](https://helios2.mi.parisdescartes.fr/~platouch/) 
 
@@ -18,6 +18,17 @@ firstname.lastname@inria.fr
 }
 ``` -->
 
+@article{liang2021deepltrs,
+  title={DeepLTRS: A deep latent recommender system based on user ratings and reviews},
+  author={Liang, Dingge and Corneli, Marco and Bouveyron, Charles and Latouche, Pierre},
+  journal={Pattern Recognition Letters},
+  volume={152},
+  pages={267--274},
+  year={2021},
+  publisher={Elsevier}
+}
+
+```
 ## Introduction
 
 In this work, we propose the deep latent position model (DeepLPM), an end-to-end generative clustering approach which combines the widely used latent position model (LPM) for network analysis with a graph convolutional network (GCN) encoding strategy.
@@ -30,6 +41,7 @@ Pytorch
 
 change the data name and all parameters in 'args.py';
 run 'train.py'.
+```
 
 ## Acknowledgement
 
